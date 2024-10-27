@@ -1,0 +1,66 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1 {
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: 
+    auto 1fr auto;
+}
+
+/* Estilos generales para modo nocturno */
+body {
+    font-family: Verdana, sans-serif; /* En esta linea especificamos la fuente y tipo de letra usada en el apartado */
+    line-height: 1.6;
+    background-color: #333; /* Fondo gris oscuro */
+    color: #fff; /* Texto en blanco */
+}
+
+/* Estilos para el header */
+header {
+    background-color: #444; /* Fondo ligeramente más claro para header */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para el main */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #ccc; /* Subtítulos con color ligeramente más claro */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #444; /* Fondo ligeramente más claro para footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.github-mark-white {
+    width: 30px;
+    height: auto;
+}
