@@ -12,6 +12,30 @@
     auto 1fr auto;
 }
 
+.header2_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+}
+
+.paragraph1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    color: white;
+}
+
+.button_list1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+}
+
 /* Estilos generales para modo nocturno */
 body {
     font-family: Courier New, monospace; /* En esta linea especificamos la fuente y tipo de letra usada en el apartado */
